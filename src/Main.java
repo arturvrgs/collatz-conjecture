@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Type an integer: ");
         int m = scan.nextInt();
 
-        System.out.print(m + "->");
+        System.out.print(m);
 
         while(m != 1) {
             if(m % 2 == 0) {
@@ -25,10 +25,9 @@ public class Main {
             } else  {
                 m = (m*3) + 1;
             }
-            if(m != 1)
-                System.out.print(m + "->");
-            else
-                System.out.println(m);
+
+                System.out.print("->" + m );
+
         }
 
     }
